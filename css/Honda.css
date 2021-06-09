@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.containers-fluid{
+	margin: 0 auto;
+}
+/*Css NAV*/
+
+.header{
+	
+	display:flex;
+	background-color:white;
+}
+
+
+nav{
+	margin-left:auto;
+	padding-top:10px;
+}
+nav ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	display:flex;
+}
+
+nav ul > li > a{
+	text-transform:uppercase;
+	text-decoration:none;
+	display:block;
+	padding:15px 10px;
+}
+/* css banner */
+section.banner{
+	/*animation: doinen ease-in-out 7s infinite;*/
+	background-size:100%;
+	background-repeat:none;
+}
+
+section.banner img{
+	/*visibility:hidden;*/
+	width:100%;
+	}
+
+/*
+@keyframes doinen{
+	0%{
+		background-image:url(../images/DPngGbO1ABCgJvtHQvma.jpg);
+	}
+	
+	100%{
+		background-image:url(../images/PXr60EHGZFWJAmuRTbCo.jpg);
+	
+    }
+	
+	
+}
+*/
+
+
+
+section.obj{
+	background-color:gold;
+	color:white;
+	padding:20px;
+	
+}
+	
+section.obj h1{
+	font-size:3vw;
+	text-align:center;
+}
+
+/*Css introduce*/
+
+section.introduce{
+	background-color:lightgray;
+	color:gray;
+	text-align:center;
+	padding:30px 10px;
+	}
+
+section.introduce2{
+	background-color:lightgray;
+	}
+div.item > div:hover{
+	box-shadow:2px 3px 8px gray;/*9px độ nhòe*/
+	
+	}
+h1{
+	font-size:3vw;
+	}
+
+h1.underline::after{
+	content:" ";
+	height:3px;
+	width:5%;
+	background-color:gray;
+	display:block;
+	margin:0 auto;
+}
+
+
+
+	
+div.items{
+	display:flex;
+}
+
+div.item{
+	width:25%;
+	padding:10px; 
+}
+
+div.item img{
+	max-width:100%;
+}
+
+div.item > div{
+	background-color:beige;
+	padding:10px;
+}
+/*css product*/
+
+section.product{
+	background-color:lightgray;
+	color:gray;
+	text-align:center;
+}
+
+section.product h1{
+	padding-top:20px;}
+	
+div.prods {
+	display:flex;
+	flex-wrap:wrap;
+	}
+div.prod {
+	
+	width:33.33%
+	}
+
+div.prod img{
+	max-width:100%;
+	margin:10px 0;
+	}
+/*css stat*/
+
+section.stats{
+	background-color:black;
+	color:white;
+	display:flex;
+	text-align:center;
+	}
+
+div.stat{
+	
+	width:25%;
+	}
+	
+div.stat h1{
+	margin-bottom:10px;
+	margin-top:20px;
+}
+
+/*css events*/
+
+div.evts {
+	display:flex;}
+	
+div.evt iframe{
+	width:100%;
+	}
+	
+div.evt {
+	width:25%;
+	padding:5px;
+}
+
+section.events h1{
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
